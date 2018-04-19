@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/masking test.unity
+- path: Assets/user defined target test.unity
   isLoaded: 1
   isActive: 1

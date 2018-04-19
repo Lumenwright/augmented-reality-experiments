@@ -97,9 +97,9 @@ public class SwipeManager : MonoBehaviour
 
 	void Update ()
 	{
-		if (autoDetectSwipes) {
+//		if (autoDetectSwipes) {
 			DetectSwipe();
-		}
+//		}
 	}
 
 	/// <summary>
@@ -184,6 +184,7 @@ public class SwipeManager : MonoBehaviour
 
 	static bool GetMouseInput ()
 	{
+		Debug.Log (Input.GetMouseButtonDown(0));
 		// Swipe/Click started
 		if (Input.GetMouseButtonDown(0)) {
 			firstPressPos = (Vector2)Input.mousePosition;
